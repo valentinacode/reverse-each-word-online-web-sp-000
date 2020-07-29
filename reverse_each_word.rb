@@ -6,6 +6,6 @@ def reverse_each_word(sentence1)
 end
 
 def reverse_each_word(sentence1)
- sentence = 
- dog.collect {|name| name.reverse}
+ sentence = "Hello there, and how are you?"
+ sentence.each {|name| name.reverse}
 end
