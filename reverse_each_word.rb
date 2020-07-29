@@ -1,5 +1,4 @@
 def reverse_each_word(sentence1)
-  array = []
  sentence1 = "Hello there, and how are you?"
  sentence1.each {|name| name.reverse}
 end
